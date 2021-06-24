@@ -94,10 +94,10 @@ function FormValidation() {
     return true;
 }
 
-let input = window.prompt("Enter your age");
+var input = window.prompt("Enter your age");
 
 if (input < 18) {
-    window.alert("You are too Young");
+    window.close();
 }
 
 else {
