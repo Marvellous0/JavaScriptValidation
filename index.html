@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <title>JavaScript Assignment</title>
+    <link rel="stylesheet" href="darkmode.css">
+</head>
+
+<body id="darkmode">
+    <button id="btn" onclick="darkmode()">Theme</button>
+    <button onClick="window.print()">Print Registration form</button>
+    <div>
+        <form method="POST" onsubmit="return FormValidation()" action="/" id="myform">
+            <h1 style="color:hotpink;">Registration form</h1>
+            <input type="text" id="sname" name="surname" value="" placeholder="Enter your Surname"><br>
+
+            <input type="text" id="fname" name="firstname" value="" placeholder="Enter your first Name"><br>
+
+            <input type="text" id="email" name="myemail" value="" placeholder="Enter your Email"><br>
+
+            <input type="text" id="phonenumber" name="myphonenumber" value="" placeholder="Enter your Phone Number"><br>
+
+            <input type="text" id="age" name="myage" value="" placeholder="Enter your Age"><br>
+
+            <input type="text" id="password" name="mypassword" value="" placeholder="Create Password"><br>
+
+            <input type="text" id="cpassword" name="cpassword" value="" placeholder="Confirm Password"><br>
+
+            <select id="nationality" name="mynationality">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="uk">United Kingdom</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="algeria">Algeria</option>
+            </select><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="ass.js"></script>
+</body>
+
+</html>
